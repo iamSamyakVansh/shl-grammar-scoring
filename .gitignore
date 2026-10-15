@@ -1,0 +1,10 @@
+data/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Keep small result artifacts (figures, submission, CV report) as evidence;
+# exclude the large regenerable cache (transcripts, features, model binaries).
+artifacts/*
+!artifacts/cv_report.json
